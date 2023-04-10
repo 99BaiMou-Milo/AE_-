@@ -1,0 +1,29 @@
+﻿生成启动时间为 2023/4/10 10:38:23。
+     1>项目“F:\.YP\OPENCV_Cpp\PJC\NO_12_AE_DEF\ConsoleApplication1\ConsoleApplication1.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\VS\VC\bin\x86_amd64\CL.exe /c /IF:\.YP\OPENCV_Cpp\PJC\NO_12_AE_DEF\ConsoleApplication1\SEN_LIB /IF:\.YP\OPENCV_Cpp\PJC\NO_12_AE_DEF\ConsoleApplication1\BIOS /Zi /nologo /W3 /WX- /sdl /Od /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt BIOS\AE_LIB.cpp DEF_AE.cpp
+         DEF_AE.cpp
+     1>F:\.YP\OPENCV_Cpp\LIB\opencv\build\include\opencv2/core/mat.hpp(1965): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>F:\.YP\OPENCV_Cpp\LIB\opencv\build\include\opencv2/core/persistence.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>F:\.YP\OPENCV_Cpp\LIB\opencv\build\include\opencv2/core/utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>DEF_AE.cpp(82): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+     1>DEF_AE.cpp(84): warning C4244: “+=”: 从“float”转换到“int”，可能丢失数据
+     1>DEF_AE.cpp(216): warning C4244: “=”: 从“float”转换到“long”，可能丢失数据
+     1>DEF_AE.cpp(222): warning C4244: “参数”: 从“long”转换到“float”，可能丢失数据
+         AE_LIB.cpp
+     1>F:\.YP\OPENCV_Cpp\LIB\opencv\build\include\opencv2/core/mat.hpp(1965): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>F:\.YP\OPENCV_Cpp\LIB\opencv\build\include\opencv2/core/persistence.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>F:\.YP\OPENCV_Cpp\LIB\opencv\build\include\opencv2/core/utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>BIOS\AE_LIB.cpp(93): warning C4244: “return”: 从“long”转换到“float”，可能丢失数据
+         正在生成代码...
+       Link:
+         D:\VS\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"F:\.YP\OPENCV_Cpp\PJC\NO_12_AE_DEF\x64\Debug\ConsoleApplication1.exe" /INCREMENTAL /NOLOGO opencv_world310d.lib opencv_world310.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\.YP\OPENCV_Cpp\PJC\NO_12_AE_DEF\x64\Debug\ConsoleApplication1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\.YP\OPENCV_Cpp\PJC\NO_12_AE_DEF\x64\Debug\ConsoleApplication1.lib" /MACHINE:X64 x64\Debug\AE_LIB.obj
+         x64\Debug\NC.obj
+         x64\Debug\DEF_AE.obj
+         x64\Debug\SEN_sc200AI.obj
+         ConsoleApplication1.vcxproj -> F:\.YP\OPENCV_Cpp\PJC\NO_12_AE_DEF\x64\Debug\ConsoleApplication1.exe
+     1>已完成生成项目“F:\.YP\OPENCV_Cpp\PJC\NO_12_AE_DEF\ConsoleApplication1\ConsoleApplication1.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.14

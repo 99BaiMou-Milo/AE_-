@@ -1,0 +1,24 @@
+V20230325
+发现一个BUG
+	if (slExpIdx < ((Time_Target[1][0] * P_CLK) / (HTS * 1000)))
+	{
+		Set_Exp(CAM,(int)slExpIdx);
+	}
+	else
+	{
+		//(ExpIdx - ((Absy_Target[1][0] * P_CLK) / (HTS * 1000))
+		Set_Exp(CAM, (int)((Time_Target[1][0] * P_CLK) / (HTS * 1000)));
+		Set_G(CAM, (int)(slExpIdx - ((Time_Target[1][0] * P_CLK) / (HTS * 1000))));
+	}
+修改为
+	if (slExpIdx < ((Time_Target[1][0] * P_CLK) / (HTS * 1000)))
+	{
+		Set_Exp(CAM,(int)slExpIdx);
+		Set_G(CAM, 0);       //由于某些情况下可能会从高增益区退回单曝光时间区域，所以要设置0 
+	}
+	else
+	{
+		//(ExpIdx - ((Absy_Target[1][0] * P_CLK) / (HTS * 1000))
+		Set_Exp(CAM, (int)((Time_Target[1][0] * P_CLK) / (HTS * 1000)));
+		Set_G(CAM, (int)(slExpIdx - ((Time_Target[1][0] * P_CLK) / (HTS * 1000))));
+	}
